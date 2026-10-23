@@ -63,7 +63,8 @@ public class Player : MonoBehaviour
         //      Component.
         //
         // Feature 5 of the rubric should work after this.
-        
+
+        _currentFood.GetComponent<FloatAnimation>().StopAnimation();
 
 
         // STEP 6 -------------------------------------------------------------
